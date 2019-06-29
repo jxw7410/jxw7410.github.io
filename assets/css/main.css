@@ -1441,12 +1441,13 @@ input, select, textarea {
 				}
 
 			#header .logo {
-				width: 4.75rem;
-				height: 4.75rem;
+				width: 9rem;
+				height: 9rem;
 				line-height: 4.75rem;
 			}
 
-				#header .logo .icon:before {
+
+			#header .logo .icon:before {
 					font-size: 1.75rem;
 				}
 
@@ -1670,11 +1671,19 @@ input, select, textarea {
 }
 
 .me > img{
-	margin-top: 1px;
 	width: 8.7rem;
 	height: 8.7rem;
 	border-radius: 100%;
 }
+
+
+/* @media screen and (max-width: 736px){
+	.me > img {
+    width: 4.55rem;
+    height: 4.55rem;
+    border-radius: 100%;
+	
+} */
 
 #contact > p {
 	display: flex;
