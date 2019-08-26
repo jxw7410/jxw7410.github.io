@@ -1291,8 +1291,8 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 9rem;
-			height: 9rem;
+			width: 14rem;
+			height: 14rem;
 			line-height: 5.5rem;
 			border: solid 2px #ffffff;
 			border-radius: 100%;
@@ -1441,8 +1441,8 @@ input, select, textarea {
 				}
 
 			#header .logo {
-				width: 9rem;
-				height: 9rem;
+				width: 14rem;
+				height: 14rem;
 				line-height: 4.75rem;
 			}
 
@@ -1671,8 +1671,8 @@ input, select, textarea {
 }
 
 .me > img{
-	width: 8.7rem;
-	height: 8.7rem;
+	width: 13.8rem;
+	height: 13.8rem;
 	border-radius: 100%;
 }
 
@@ -1700,4 +1700,19 @@ input, select, textarea {
 
 .contact{
 	font-size: 20px;
+}
+
+.iconify-div{
+	display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+
+.about-row{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 50px 0;
 }
